@@ -13,7 +13,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/fedotovaleksandr/ivory-google-map"
+            "url": "https://github.com/fedotovaleksandr/google-map"
         }
     ],
     "require": {
