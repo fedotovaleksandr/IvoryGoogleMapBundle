@@ -13,14 +13,13 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/fedotovaleksandr/ivory-google-map",
-            "version": "master"
+            "url": "https://github.com/fedotovaleksandr/ivory-google-map"
         }
     ],
     "require": {
         "php": "^5.6|^7.0",
         "symfony/framework-bundle": "^2.7|^3.0",
-        "egeloen/google-map": "master"
+        "egeloen/google-map": "dev-roads-api"
     },
     "require-dev": {
         "egeloen/serializer-bundle": "^1.0",
