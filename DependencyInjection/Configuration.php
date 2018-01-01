@@ -42,6 +42,7 @@ class Configuration implements ConfigurationInterface
             'place_photo'        => false,
             'place_search'       => true,
             'time_zone'          => true,
+            'road_snap'          => true
         ];
 
         foreach ($services as $service => $http) {

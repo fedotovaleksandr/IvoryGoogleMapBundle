@@ -127,6 +127,7 @@ abstract class AbstractIvoryGoogleMapExtensionTest extends \PHPUnit_Framework_Te
         $this->assertFalse($this->container->has('ivory.google_map.elevation'));
         $this->assertFalse($this->container->has('ivory.google_map.geocoder'));
         $this->assertFalse($this->container->has('ivory.google_map.time_zone'));
+        $this->assertFalse($this->container->has('ivory.google_map.road_snap'));
 
         $this->assertFalse($this->container->has('ivory.google_map.templating.api'));
         $this->assertFalse($this->container->has('ivory.google_map.templating.map'));
